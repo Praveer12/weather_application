@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poopins', sans-serif;
+    box-sizing: border-box;
+    
+    
+
+}
+
+
+.page{
+    /* position: absolute; */
+    width: 90%;
+    max-width: 470px;
+
+    margin: 30px auto 0;
+    border-radius: 20px;
+    padding: 25px 35px;
+    padding-top: 100px;
+    text-align: center;
+
+    background: linear-gradient(rgb(138, 0, 148),rgb(255, 21, 21));
+    border: 100;
+    
+    
+}
+
+.search{
+    /* position: absolute; */
+    
+
+    width: 100%;
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+   
+    
+}
+
+.search input{
+    /* position: absolute; */
+    /* border: 0; */
+    outline: 0;
+    
+    font-size: large;
+
+    border-radius: 30px;
+    padding: 20px 10px 20px 50px;
+    margin-bottom: 55px;
+    margin-left: 10px;
+    font-weight: bold;
+
+    
+    
+}
+
+.search input:hover{
+   box-shadow: 2px 2px 2px 2px;
+   /* border-color: white; */
+    
+}
+
+.search button{
+    /* position: relative; */
+    
+border: 10;
+border-radius: 30px;
+padding: 25px 30px 20px 30px;
+margin-top: -55px;
+margin-right: 20px;
+margin-left: 10px;
+}
+
+.search button:hover{
+    
+    padding: 28px 32px 22px 32px;
+}
+
+
+
+
+.temp{
+    margin-top: 10px;
+    color: white;
+    font-size: 5vh;
+}
+.city{
+    margin-top: 20px;
+    color: white;
+    font-size: 4vh;
+}
+.anime{
+    border: 0;
+}
+
+.detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.humidity,.wind {
+    padding-bottom: 5px;
+    color: white;
+    font-size: 2.8vh;
+    font-weight: bold;
+}
+.col{
+    margin-top: 10px;
+    color: white;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    color: white;
+    margin-left: 19px;
+
+    font-size: 20px;
+    display: none;
+
+}
+.titl{
+    color: white;
+    margin-top: -50px;
+    padding-bottom: 50px;
+    font-size: 4vh;
+}
